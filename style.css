@@ -38,3 +38,33 @@ header  img{
     width: 2rem;
 }
 
+/* estilização da sessão banner */
+
+.sessao-banner{
+    background-image: url(./assets/imgFundoRosa2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.sessao-boas_vindas{
+    font-size: 51px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sessao-boas_vindas > img{
+    width: 14vw;
+    height: 25vh;
+
+}
