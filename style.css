@@ -45,7 +45,7 @@ header  img{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 110vh;
+    height: 125vh;
     width: 100%;
 
     display: flex;
@@ -70,3 +70,46 @@ header  img{
 }
 
 /* estilização da sessão fale conosco */
+.sessao-fale_conosco{
+    background-image: url(./assets/imgFundoBranco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 160vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.sessao-banho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 43vw;
+    margin: 0 3rem;
+
+}
+
+.sessao-banho > h3{
+    font-size: 49px;
+}
+
+.sessao-banho > p{
+    font-size: 27px;
+
+    margin: 1rem 0;
+}
+
+.sessao-banho > a{
+    color: white;
+    text-decoration: none;
+
+    border-radius: 5rem;
+    background-color: #3A342F;
+    width: 10vw;
+    padding: 1rem;
+    text-align: center;
+}
