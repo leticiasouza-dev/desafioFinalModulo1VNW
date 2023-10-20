@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilização da header e da nav */
+
+header{
+    background-color: #252525;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+header  img{
+    width: 2vw;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > img{
+    width: 3vw;
+}
+
+.navBar{
+    width: 17%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navBar > img{
+    width: 2rem;
+}
