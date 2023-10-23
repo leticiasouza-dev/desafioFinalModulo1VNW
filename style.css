@@ -114,4 +114,47 @@ header  img{
     text-align: center;
 }
 
-/*  */
+/* estilização da sessão informações */
+.sessao-informacoes{
+    background-image: url(./assets/imgFundoRosa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 160vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    
+}
+
+.sessao-espaco{
+    display: flex;
+    flex-direction: column;
+
+    width: 43vw;
+}
+
+.sessao-espaco > h3{
+    font-size: 49px;
+}
+
+.sessao-espaco > p{
+    font-size: 27px;
+
+    margin: 1rem 0;
+}
+
+.sessao-espaco > a{
+    color: white;
+    text-decoration: none;
+
+    border-radius: 5rem;
+    background-color: #3A342F;
+    width: 10vw;
+    padding: 1rem;
+    text-align: center;
+}
