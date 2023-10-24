@@ -80,7 +80,7 @@ header h1{
 /* estilização da sessão fale conosco */
 .sessao-fale_conosco{
     background-image: url(./assets/imgFundoBranco.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -103,12 +103,12 @@ header h1{
 
 .sessao-banho > h3{
     color: #3A342F;
-    font-size: 49px;
+    font-size: 4rem;
 }
 
 .sessao-banho > p{
     color: #3A342F;
-    font-size: 27px;
+    font-size: 2rem;
 
     margin: 1rem 0;
 }
@@ -194,21 +194,16 @@ footer{
 
 table{
     margin: 5rem 0 5rem 7rem;
-    /* border: 1px solid black; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; */
-   /* width: 50vw; */
 }
 
 thead {
     font-size: 2rem;
-    /* background-color: blue; */
+    
 }
 
 tbody{
     font-size: 1rem;
-    /* background-color: red; */
+    
 }
 
 th, td{
@@ -218,6 +213,8 @@ th, td{
 td{
     padding-bottom: 0.5rem;
 }
+
+
 
 
 /* responsividade para um mobile (celular) */
@@ -270,5 +267,33 @@ td{
     margin-top: 2.8rem;
     width: 22vw;
     height: 15vh;
+   }
+
+   /* estilização da sessão fale conosco e sessão banho */
+   .sessao-fale_conosco{
+    background-image: url(./assets/background2-responsivo.png);
+    background-size: cover;
+    height: 120vh;
+
+    display: flex;
+    align-items: flex-start;
+   }
+
+   .sessao-banho{
+    margin-top: 5rem;
+    
+    width: 95vw;
+   }
+
+   .sessao-banho > h3{
+    font-size: 2rem;
+   }
+
+   .sessao-banho > p{
+    font-size: 1.2rem;
+   }
+
+   .sessao-banho > a{
+    width: 41vw;
    }
 }
