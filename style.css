@@ -325,4 +325,26 @@ td{
    .sessao-espaco > a{
     width: 41vw;
    }
+
+   /* estilização da sessao apoio */
+   .sessao-apoio{
+    display: flex;
+    flex-direction: column;
+
+    height: 18vh;
+   }
+
+   .sessao-apoio > h2{
+    font-size: 1.5rem;
+   }
+
+   .imagens-apoio{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+   }
+
+   .imagens-apoio > img{
+    width: 30vw;
+   }
 }
