@@ -223,6 +223,8 @@ td{
 /* responsividade para um mobile (celular) */
 
 @media(min-width:201px) and (max-width: 500px){
+
+    /* estilização header */
     header{
         width: 100%;
     }
@@ -247,5 +249,26 @@ td{
    .navBar  .icone-whatsapp{
     width: 2rem;
     margin-left: 8rem;
+   }
+
+   /* estilização da sessão banner e boas vindas */
+   .sessao-banner{
+    display: flex;
+    align-items: flex-start;
+    height: 90vh;
+   } 
+
+   .sessao-boas_vindas{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+
+    margin-top: 3rem;
+   }
+
+   .sessao-boas_vindas > img{
+    margin-top: 2.8rem;
+    width: 22vw;
+    height: 15vh;
    }
 }
