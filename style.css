@@ -280,9 +280,9 @@ td{
    }
 
    .sessao-banho{
-    margin-top: 5rem;
+    margin: 5rem 0 0 2rem;
     
-    width: 95vw;
+    width: 90vw;
    }
 
    .sessao-banho > h3{
@@ -290,10 +290,39 @@ td{
    }
 
    .sessao-banho > p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
    }
 
    .sessao-banho > a{
+    width: 41vw;
+   }
+
+   /* estilização da sessão informações */
+   .sessao-informacoes{
+    background-image: url(./assets/background3-responsivo.png);
+    background-size: cover;
+    height: 115vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   }
+
+   .sessao-espaco{
+    margin: 5rem 0 0 2rem;
+
+    width: 43vh;
+   }
+
+   .sessao-espaco > h3{
+    font-size: 1.7rem;
+   }
+
+   .sessao-espaco > p{
+    font-size: 1.2rem;
+   }
+
+   .sessao-espaco > a{
     width: 41vw;
    }
 }
