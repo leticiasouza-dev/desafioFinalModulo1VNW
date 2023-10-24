@@ -11,7 +11,7 @@
 
 header{
     background-color: #252525;
-
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 1rem 3rem;
@@ -217,4 +217,35 @@ th, td{
 
 td{
     padding-bottom: 0.5rem;
+}
+
+
+/* responsividade para um mobile (celular) */
+
+@media(min-width:201px) and (max-width: 500px){
+    header{
+        width: 100%;
+    }
+
+    .logo{
+        display: flex;
+        width: 60%;
+    }
+
+    .logo > img{
+        width: 10vw;
+    }
+
+    .navBar{
+        width: 40%;
+    }
+
+   .navBar > .icone-instagram, .icone-youtube{
+    display: none;
+   }
+
+   .navBar  .icone-whatsapp{
+    width: 2rem;
+    margin-left: 8rem;
+   }
 }
