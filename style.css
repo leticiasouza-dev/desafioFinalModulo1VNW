@@ -187,31 +187,33 @@ header h1{
 /* estilização do rodapé */
 footer{
     background-color: #EB4A7B;
+    width: 100%;
     color: white;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.lista-container{
     display: flex;
-    align-items: flex-start;
-}
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 
-table{
-    margin: 5rem 0 5rem 7rem;
-}
-
-thead {
-    font-size: 2rem;
+    width: 80%;
+    margin: 6rem 0 6rem 0;
+    /* border: 1px solid black; */
     
 }
 
-tbody{
-    font-size: 1rem;
-    
+.titulo{
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 2rem
 }
 
-th, td{
-    padding: 0 5rem 3rem 0 ;
-}
-
-td{
-    padding-bottom: 0.5rem;
+li{
+    line-height: 1.7rem;
 }
 
 
@@ -346,5 +348,14 @@ td{
 
    .imagens-apoio > img{
     width: 30vw;
+   }
+
+   /* estilização do rodapé da página */
+   footer{
+
+   }
+
+   table{
+    display: block;
    }
 }
