@@ -235,6 +235,10 @@ li{
         width: 60%;
     }
 
+    .logo > h1{
+        font-size: 1.2rem;
+    }
+
     .logo > img{
         width: 10vw;
     }
@@ -248,8 +252,8 @@ li{
    }
 
    .navBar  .icone-whatsapp{
-    width: 2rem;
-    margin-left: 8rem;
+    width: 7vw;
+    margin-left: 6rem;
    }
 
    /* estilização da sessão banner e boas vindas */
@@ -267,8 +271,12 @@ li{
     margin-top: 3rem;
    }
 
+   .sessao-boas_vindas > h2{
+    font-size: 1.4rem;
+   }
+
    .sessao-boas_vindas > img{
-    margin-top: 2.8rem;
+    margin-top: 1.5rem;
     width: 22vw;
     height: 15vh;
    }
@@ -277,35 +285,36 @@ li{
    .sessao-fale_conosco{
     background-image: url(./assets/background2-responsivo.png);
     background-size: cover;
-    height: 120vh;
+    height: 93vh;
 
     display: flex;
     align-items: flex-start;
    }
 
    .sessao-banho{
-    margin: 5rem 0 0 2rem;
+    margin: 2rem 0 0 0.7rem;
     
-    width: 90vw;
+    width: 91vw;
    }
 
    .sessao-banho > h3{
-    font-size: 2rem;
+    font-size: 1.3rem;
    }
 
    .sessao-banho > p{
-    font-size: 1.1rem;
+    font-size: 0.8rem;
    }
 
    .sessao-banho > a{
-    width: 41vw;
+    font-size: 0.7rem;
+    width: 38vw;
    }
 
    /* estilização da sessão informações */
    .sessao-informacoes{
     background-image: url(./assets/background3-responsivo.png);
     background-size: cover;
-    height: 115vh;
+    height: 106vh;
 
     display: flex;
     justify-content: flex-start;
@@ -313,21 +322,22 @@ li{
    }
 
    .sessao-espaco{
-    margin: 5rem 0 0 2rem;
+    margin: 2rem 0 0 1rem;
 
     width: 43vh;
    }
 
    .sessao-espaco > h3{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
    }
 
    .sessao-espaco > p{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
    }
 
    .sessao-espaco > a{
-    width: 41vw;
+    font-size: 0.7rem;
+    width: 38vw;
    }
 
    /* estilização da sessao apoio */
